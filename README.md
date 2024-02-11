@@ -12,7 +12,7 @@ This script requires the following dependencies:
 You can install the dependencies by running the provided `setup.sh` script:
 ```bash
 ./setup.sh
-
+```
 
 ## Troubleshooting
 
