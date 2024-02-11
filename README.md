@@ -9,7 +9,7 @@ This script requires the following dependencies:
 - `hidapi`
 - `psutil`
 
-You can install the dependencies by running the provided `setup.sh` script:
+You can install by running the provided `setup.sh` script:
 ```bash
 ./setup.sh
 ```
