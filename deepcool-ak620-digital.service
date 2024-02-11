@@ -1,0 +1,12 @@
+
+[Unit]
+Description=Displaying the current temperature and utilisation on the Deepcool AK620
+
+[Service]
+Type=simple
+User=root
+ExecStart= /usr/bin/python /usr/bin/deepcool-ak620-digital.py
+Restart=always
+
+[Install]
+WantedBy=default.target

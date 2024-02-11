@@ -1,0 +1,10 @@
+[Unit]
+Description=Restart deepcool-ak620-digital after resume
+After=suspend.target
+
+[Service]
+Type=simple
+ExecStart=/bin/systemctl --no-block restart deepcool-ak620-digital.service
+
+[Install]
+WantedBy=suspend.target
