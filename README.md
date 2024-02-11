@@ -1,6 +1,6 @@
 # AK620 Digital Air Cooler Monitor on Linux
 
-This Project allows you to monitor temperature and CPU utilization on DeepCool's AK620 digital air cooler for Linux systems. The Soultion is tested on Ubuntu 23 with ryzen 7950x3d for other cpu's customisation in the temperature section is needed.
+This project enables monitoring of temperature and CPU utilization on DeepCool's AK620 digital air cooler for Linux systems. The solution has been tested on Ubuntu 23 with a Ryzen 7950X3D CPU. Customization may be required in the temperature section for other CPUs.
 
 ## Dependencies
 
