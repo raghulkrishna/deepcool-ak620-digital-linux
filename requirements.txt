@@ -1,0 +1,4 @@
+pyinstaller
+hid
+psutil
+argparse

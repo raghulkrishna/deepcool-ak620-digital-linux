@@ -4,7 +4,11 @@ Description=Displaying the current temperature and utilization on the Deepcool A
 [Service]
 Type=simple
 User=root
-ExecStart= /usr/bin/python /usr/bin/deepcool-ak-series-digital.py
+# Edit the flags below for your hardware before installing this unit.
+# Defaults shown: AK620, k10temp sensor, temp + utilization both shown, 2s interval.
+# Run `cooler-display --help` for the full list of options, e.g.:
+#   --model ak500s --sensor <your-sensor> --disable-utils --interval 3
+ExecStart=/usr/local/bin/cooler-display --model ak620 --sensor k10temp
 Restart=always
 
 [Install]
